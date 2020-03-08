@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+	</script>
+	<meta charset="UTF-8">
+	<title>Survey Form for joining the NAVI Academy</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+
+<!-- Header -->
+
+		<header class="header">
+			<a 	href="https://www.navi.gg" 
+				target="_blank">
+	          <img class="logo"
+	            src="https://avatars.mds.yandex.net/get-zen_doc/1718701/pub_5d9b7e0c74f1bc00af825b41_5d9b7ef02fda8600b152fb5c/scale_1200"
+	            alt="Navi">
+        	</a>
+			<h1 id="title">
+				Survey Form for joining the NAVI Academy
+			</h1>
+			<p id="description">
+				Answer the question belowe
+			</p>
+		</header>
+		
+<!-- Form -->
+		<form action="#" id="survey-form">
+			<div class="form-container">
+				<label for="name" id="name-label" >
+					Name
+				</label>
+					<input 
+					type="text" 
+					name="name" 
+					id="name" 
+					class="form-control" 
+					placeholder="Enter your full name" 
+					required>
+			</div>
+			<div class="form-container">
+				<label for="email" id="email-label" >
+					Email
+				</label>
+					<input 
+					type="email" 
+					name="email" 
+					id="email" 
+					class="form-control" 
+					placeholder="Enter your email" 
+					required>
+			</div>			
+			<div class="form-container">
+				<label for="number" id="number-label" >
+					Age
+				</label>
+					<input 
+					type="number" 
+					name="number" 
+					id="number" 
+					min="11" 
+					max="33" 
+					class="form-control" 
+					placeholder="Enter your age">
+			</div>
+			<div class="form-container">
+				<p>
+					What is your main role in the game?
+				</p>
+				<select name="develope" id="dropdown" class="form-control" required>
+					<option disabled selected value>Select one of them</option>
+					<option value="">IGL</option>
+					<option value="">Lurker</option>
+					<option value="">Sniper</option>
+					<option value="">Support</option>
+					<option value="">Entry fragger</option>
+					<option value="">Decoy</option>
+				</select>
+			</div>	
+			<div class="form-container">
+				<p>
+					Gender?
+				</p>
+				<label>
+					<input 
+					name="Gender" 
+					value="Male"
+					type="radio" 
+					class="input-radio"/>
+						Male
+				</label>
+				<label>
+					<input 
+					type="radio" 
+					name="Gender" 
+					value="Female" 
+					class="input-radio"/>
+						Female
+				</label>
+				<label>
+					<input 
+					type="radio" 
+					name="Gender" 
+					value="Prefer not to say" 
+					class="input-radio"
+					required>
+						Prefer not to say
+				</label>
+			</div>
+			<div class="form-container">
+				<p>
+					What is your favorite map?
+				</p>
+				<select 
+					name="map" 
+					id="map" 
+					class="form-control" 
+					required>
+						<option disabled selected value>
+							Select an option
+						</option>
+						<option value="">Dust II</option>
+						<option value="">Mirage</option>
+						<option value="">Inferno</option>
+						<option value="">Cache</option>
+						<option value="">Train</option>
+						<option value="">Nuke</option>
+						<option value="">Overpass</option>
+						<option value="">Vertigo</option>
+				</select>
+			</div>
+			<div class="form-container">
+				<p>	What is your favorite weapon</p>
+         <p class="clue">(Check all that apply)</p>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="AK-47">
+					AK-47
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="AWP">
+					AWP
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="SG-553">
+					SG-553
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="AUG">
+					AUG
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="M4A1">
+					M4A1
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="M4A1-S">
+					M4A1-S
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="FAMAS">
+					FAMAS
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="Galil">
+					Galil
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="MP-9">
+					MP-9
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="MP-7">
+					MP-7
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="Kotlin">
+					P90
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="Desert eagle">
+					Desert Eagle
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="USP">
+					USP
+				</label>
+				<label>
+					<input 
+					name="weapon" 
+					type="checkbox" 
+					class="input-checkbox" 
+					value="Glock-18">
+					Glock-18
+				</label>
+			</div>
+			<div class="form-container">
+				<p>
+					Any comments about yourself?
+				</p>
+				<textarea 
+				name="comment" 
+				id="comments" 
+				class="input-textarea" 
+				placeholder="Enter your comment here..."></textarea>
+			</div>
+			<div class="form-container">
+				<button 
+				type="submit" 
+				id="submit" 
+				class="submit-button">
+					Submit
+				</button>
+			</div>
+		</form>
+
+<!-- Footer -->
+		<div class="footer">
+			<p>
+          <a href="https://github.com/justalbertcode" target="_blank">
+            Made by Just Albert Code &copy;2020
+          </a>
+        </p>
+		</div>
+	</div>
+	
+</body>
+</html>
